@@ -1,0 +1,44 @@
+header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar {
+  top: 0;
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    a {
+      text-decoration: none;
+      color: $color-primario;
+    }
+  }
+}
+
+/* Media Queries: Min-width: 768px */
+
+@media (min-width: 768px) {
+  header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .navbar {
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 2;
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        margin-right: 4rem;
+      }
+      a {
+        text-decoration: none;
+        color: $color-primario;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.page_armas {
+  border-top: 1px solid $color-primario;
+  padding-top: 50px;
+  font-size: $font-size;
+  color: $color-primario;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin-top: 40px;
+  transition-property: transform;
+  transition-duration: 0.4s;
+  &:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 1px;
+  }
+}
+
+.formulario {
+  border-top: 1px solid $color-primario;
+  padding-top: 20px;
+  color: $color-primario;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+form {
+  color: $color-primario;
+  border: 20px solid $color-primario;
+  border-radius: 10px;
+  div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    input {
+      padding: 10px;
+    }
+    textarea {
+      padding: 10px;
+    }
+  }
+  button {
+    border-radius: 10px;
+    padding: 5px;
+  }
+}
