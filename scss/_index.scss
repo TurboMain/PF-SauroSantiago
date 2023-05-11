@@ -59,4 +59,25 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  .suscripcion {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin-top: 15px;
+    }
+    .btn {
+      margin-top: 15px;
+      border: solid 1px;
+      border-color: $color-primario;
+      color: $color-primario;
+    }
+  }
+  .wpp_flotante {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
 }

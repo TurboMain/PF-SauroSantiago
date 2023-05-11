@@ -19,16 +19,17 @@
 
 .formulario {
   border-top: 1px solid $color-primario;
+
   padding-top: 20px;
   color: $color-primario;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-form {
+.contacto {
   color: $color-primario;
-  border: 20px solid $color-primario;
-  border-radius: 10px;
+  border-bottom: 1px solid $color-primario;
+  padding-bottom: 20px;
   div {
     margin-top: 10px;
     margin-bottom: 10px;

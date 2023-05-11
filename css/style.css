@@ -5,8 +5,16 @@
 }
 
 header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+header .btn {
+  border-color: #a77b1a;
+  color: #a77b1a;
 }
 
 .navbar {
@@ -52,13 +60,13 @@ footer {
   margin-top: 100px;
   background-image: linear-gradient(to top, #a77b1a, rgb(255, 255, 255));
 }
-footer a img {
-  margin-bottom: 5px;
+footer p {
+  margin-bottom: 0;
 }
 
 /*---- Primera Seccion -----*/
 body {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 body main .segunda--seccion {
   background-color: rgb(235, 235, 235);
@@ -104,17 +112,38 @@ body .tercera--seccion a img:hover {
   transform: scale3d(1.1, 1.1, 1.1);
 }
 body h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 body .marcas {
   display: flex;
   justify-content: space-between;
 }
+body .suscripcion {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body .suscripcion input {
+  margin-top: 15px;
+}
+body .suscripcion .btn {
+  margin-top: 15px;
+  border: solid 1px;
+  border-color: #a77b1a;
+  color: #a77b1a;
+}
+body .wpp_flotante {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
 
 .page_armas {
   border-top: 1px solid #a77b1a;
   padding-top: 50px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #a77b1a;
   margin-top: 50px;
   margin-bottom: 10px;
@@ -138,22 +167,22 @@ body .marcas {
   margin-bottom: 20px;
 }
 
-form {
+.contacto {
   color: #a77b1a;
-  border: 20px solid #a77b1a;
-  border-radius: 10px;
+  border-bottom: 1px solid #a77b1a;
+  padding-bottom: 20px;
 }
-form div {
+.contacto div {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-form div input {
+.contacto div input {
   padding: 10px;
 }
-form div textarea {
+.contacto div textarea {
   padding: 10px;
 }
-form button {
+.contacto button {
   border-radius: 10px;
   padding: 5px;
 }

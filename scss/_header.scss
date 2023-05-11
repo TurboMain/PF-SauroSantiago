@@ -1,6 +1,14 @@
 header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
+  .btn {
+    border-color: $color-primario;
+    color: $color-primario;
+  }
 }
 
 .navbar {
