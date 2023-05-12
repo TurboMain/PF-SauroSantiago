@@ -36,11 +36,15 @@ body {
 
     a {
       text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
       .uk-position-center {
-        position: relative;
-        margin-top: 10px;
-        color: $color-primario;
+        position: absolute;
+        color: rgb(255, 255, 255);
         font-size: 1rem;
+        z-index: 1;
       }
       img {
         border-radius: $border-radius;
@@ -74,6 +78,13 @@ body {
       border-color: $color-primario;
       color: $color-primario;
     }
+  }
+
+  .direccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
   }
   .wpp_flotante {
     position: fixed;

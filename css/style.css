@@ -39,6 +39,8 @@ header .btn {
     background-color: rgb(207, 207, 207);
     display: flex;
     justify-content: center;
+    transition-property: position;
+    transition-duration: 3s;
     position: sticky;
     z-index: 2;
   }
@@ -52,6 +54,9 @@ header .btn {
   .navbar ul a {
     text-decoration: none;
     color: #a77b1a;
+  }
+  .navbar ul a:hover {
+    color: rgb(255, 255, 255);
   }
 }
 footer {
@@ -96,12 +101,15 @@ body .tercera--seccion {
 }
 body .tercera--seccion a {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .tercera--seccion a .uk-position-center {
-  position: relative;
-  margin-top: 10px;
-  color: #a77b1a;
+  position: absolute;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
+  z-index: 1;
 }
 body .tercera--seccion a img {
   border-radius: 5px;
@@ -134,6 +142,12 @@ body .suscripcion .btn {
   border-color: #a77b1a;
   color: #a77b1a;
 }
+body .direccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 body .wpp_flotante {
   position: fixed;
   bottom: 15px;
@@ -147,6 +161,14 @@ body .wpp_flotante {
   color: #a77b1a;
   margin-top: 50px;
   margin-bottom: 10px;
+}
+
+.page_contacto {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  color: #a77b1a;
 }
 
 .card {

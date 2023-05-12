@@ -20,6 +20,8 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <!---------- CDN AOS ANIMATE ----------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-------- Mi CSS ---------->
     <link rel="stylesheet" href="../css/style.css" />
     <!---- Favicon ----->
@@ -107,6 +109,39 @@
           </div>
         </div>
       </div>
+      <!---------- Sexta Seccion ------------->
+      <section class="container page_contacto direccion">
+        <div>
+          <img src="../img/direccion.png" alt="Direccion del Local" />
+        </div>
+        <div>
+          <h4>Visitá nuestro local</h4>
+          <p>Av Siempre viva 742, Villa Cañas</p>
+        </div>
+      </section>
+      <!----- Septima Seccion MAPA ---------->
+      <section class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="10"
+              data-aos-easing="ease-in-sine"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125851.81807602824!2d-61.66253232697648!3d-34.01472733583635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c7e8ba00494d27%3A0x164006225051768d!2sVilla%20Ca%C3%B1as%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1683902710932!5m2!1ses-419!2sar"
+                width="80%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Botton de Whatsapp Flotante -->
       <div class="wpp_flotante">
         <a href="https://whatsapp.com" target="_blank"
           ><img src="../img/whatsapp2.png" width="40px" alt="whatsapp"
@@ -141,5 +176,10 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <!----------- SCRIPT de AOS -------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
