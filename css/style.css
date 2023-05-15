@@ -69,7 +69,6 @@ footer p {
   margin-bottom: 0;
 }
 
-/*---- Primera Seccion -----*/
 body {
   font-size: 1.2rem;
 }
@@ -96,8 +95,8 @@ body .page_index {
   color: #a77b1a;
   border-top: 1px solid #a77b1a;
 }
-body .tercera--seccion {
-  row-gap: 50px;
+body .tercera--seccion article {
+  margin-top: 10px;
 }
 body .tercera--seccion a {
   text-decoration: none;
@@ -154,7 +153,7 @@ body .wpp_flotante {
   right: 15px;
 }
 
-.page_armas {
+body .page_armas {
   border-top: 1px solid #a77b1a;
   padding-top: 50px;
   font-size: 1.2rem;
@@ -162,49 +161,47 @@ body .wpp_flotante {
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
-.page_contacto {
+body .page_contacto {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   padding-top: 50px;
   color: #a77b1a;
 }
-
-.card {
+body .card {
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
   transition-property: transform;
   transition-duration: 0.4s;
 }
-.card:hover {
+body .card:hover {
   transform: scale3d(1.1, 1.1, 1.1);
   box-shadow: 1px;
 }
-
-.formulario {
+body .formulario {
   border-top: 1px solid #a77b1a;
   padding-top: 20px;
   color: #a77b1a;
   margin-top: 30px;
   margin-bottom: 20px;
 }
-
-.contacto {
+body .contacto {
   color: #a77b1a;
   border-bottom: 1px solid #a77b1a;
   padding-bottom: 20px;
 }
-.contacto div {
+body .contacto div {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.contacto div input {
+body .contacto div input {
   padding: 10px;
 }
-.contacto div textarea {
+body .contacto div textarea {
   padding: 10px;
 }
-.contacto button {
+body .contacto button {
   border-radius: 10px;
   padding: 5px;
 }
