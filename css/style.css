@@ -161,60 +161,176 @@ body .wpp_flotante {
   right: 15px;
 }
 
-body .page_armas {
-  border-top: 1px solid #a77b1a;
-  padding-top: 50px;
-  font-size: 1.2rem;
-  color: #a77b1a;
-  margin-top: 50px;
-  margin-bottom: 10px;
+@media (min-width: 280px) {
+  body .page_armas {
+    border-top: 1px solid #a77b1a;
+    padding-top: 50px;
+    font-size: 1.2rem;
+    color: #a77b1a;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  body .page_contacto {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: #a77b1a;
+  }
+  body .card {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: transform;
+    transition-duration: 0.4s;
+  }
+  body .card:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 1px;
+  }
+  body .formulario {
+    border-top: 1px solid #a77b1a;
+    padding-top: 20px;
+    color: #a77b1a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  body .contacto {
+    background-color: #a77b1a;
+    padding: 20px 5px;
+    border-radius: 20px;
+  }
+  body .contacto div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  body .contacto div input {
+    background-color: #f1d8a2;
+    padding: 10px;
+  }
+  body .contacto div textarea {
+    background-color: #f1d8a2;
+    padding: 11.5px;
+  }
+  body .contacto button {
+    background-color: #f1d8a2;
+    border-radius: 10px;
+    padding: 5px;
+  }
 }
-body .page_contacto {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-top: 50px;
-  color: #a77b1a;
+@media (min-width: 400px) {
+  body .page_armas {
+    border-top: 1px solid #a77b1a;
+    padding-top: 50px;
+    font-size: 1.2rem;
+    color: #a77b1a;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  body .page_contacto {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: #a77b1a;
+  }
+  body .card {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: transform;
+    transition-duration: 0.4s;
+  }
+  body .card:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 1px;
+  }
+  body .formulario {
+    border-top: 1px solid #a77b1a;
+    padding-top: 20px;
+    color: #a77b1a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  body .contacto {
+    background-color: #a77b1a;
+    padding: 20px 15px;
+    border-radius: 20px;
+  }
+  body .contacto div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  body .contacto div input {
+    background-color: #f1d8a2;
+    padding: 10px;
+  }
+  body .contacto div textarea {
+    background-color: #f1d8a2;
+    padding: 11.5px;
+  }
+  body .contacto button {
+    background-color: #f1d8a2;
+    border-radius: 10px;
+    padding: 5px;
+  }
 }
-body .card {
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  transition-property: transform;
-  transition-duration: 0.4s;
-}
-body .card:hover {
-  transform: scale3d(1.1, 1.1, 1.1);
-  box-shadow: 1px;
-}
-body .formulario {
-  border-top: 1px solid #a77b1a;
-  padding-top: 20px;
-  color: #a77b1a;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-body .contacto {
-  background-color: #a77b1a;
-  padding: 20px 100px;
-  border-radius: 20px;
-}
-body .contacto div {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-body .contacto div input {
-  background-color: #f1d8a2;
-  padding: 10px;
-}
-body .contacto div textarea {
-  background-color: #f1d8a2;
-  padding: 11.5px;
-}
-body .contacto button {
-  background-color: #f1d8a2;
-  border-radius: 10px;
-  padding: 5px;
+@media (min-width: 600px) {
+  body .page_armas {
+    border-top: 1px solid #a77b1a;
+    padding-top: 50px;
+    font-size: 1.2rem;
+    color: #a77b1a;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  body .page_contacto {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: #a77b1a;
+  }
+  body .card {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: transform;
+    transition-duration: 0.4s;
+  }
+  body .card:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 1px;
+  }
+  body .formulario {
+    border-top: 1px solid #a77b1a;
+    padding-top: 20px;
+    color: #a77b1a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  body .contacto {
+    background-color: #a77b1a;
+    padding: 20px 100px;
+    border-radius: 20px;
+  }
+  body .contacto div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  body .contacto div input {
+    background-color: #f1d8a2;
+    padding: 10px;
+  }
+  body .contacto div textarea {
+    background-color: #f1d8a2;
+    padding: 11.5px;
+  }
+  body .contacto button {
+    background-color: #f1d8a2;
+    border-radius: 10px;
+    padding: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
