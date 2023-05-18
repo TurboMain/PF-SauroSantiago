@@ -51,7 +51,7 @@ header .btn {
     list-style: none;
   }
   .navbar ul li {
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
   .navbar ul a {
     text-decoration: none;
@@ -59,6 +59,12 @@ header .btn {
   }
   .navbar ul a:hover {
     color: rgb(249, 248, 248);
+  }
+}
+/* Media Queries: Min-width: 992px */
+@media (min-width: 992px) {
+  .navbar ul li {
+    margin-right: 4rem;
   }
 }
 footer {

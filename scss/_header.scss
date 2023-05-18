@@ -45,7 +45,7 @@ header {
       display: flex;
       list-style: none;
       li {
-        margin-right: 4rem;
+        margin-right: 2rem;
       }
       a {
         text-decoration: none;
@@ -53,6 +53,18 @@ header {
         &:hover {
           color: rgb(249, 248, 248);
         }
+      }
+    }
+  }
+}
+
+/* Media Queries: Min-width: 992px */
+
+@media (min-width: 992px) {
+  .navbar {
+    ul {
+      li {
+        margin-right: 4rem;
       }
     }
   }
